@@ -1,4 +1,4 @@
-from nelsnmp.snmp import is_ipv4_address
+from netdevsnmp.snmp import is_ipv4_address
 
 
 def test_is_valid_ip():

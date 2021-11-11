@@ -2,8 +2,8 @@ import pytest
 from pysnmp.proto.rfc1902 import ObjectName, OctetString
 from pyasn1.type.univ import ObjectIdentifier
 from test_classes import GetCmd
-from nelsnmp.hostinfo.device import HostInfo
-from nelsnmp.snmp import SnmpHandler
+from netdevsnmp.hostinfo.device import HostInfo
+from netdevsnmp.snmp import SnmpHandler
 
 
 @pytest.fixture()

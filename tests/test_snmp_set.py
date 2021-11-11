@@ -1,6 +1,6 @@
 import pytest
 from test_classes import SetCmd
-from nelsnmp.snmp import SnmpHandler
+from netdevsnmp.snmp import SnmpHandler
 
 
 @pytest.fixture(scope='function')

@@ -1,6 +1,6 @@
 import pytest
-from nelsnmp.errors import ArgumentError
-from nelsnmp.snmp import SnmpHandler
+from netdevsnmp.errors import ArgumentError
+from netdevsnmp.snmp import SnmpHandler
 
 
 def test_snmp_missing_host():

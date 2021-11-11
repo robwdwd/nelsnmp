@@ -1,9 +1,9 @@
 import pytest
 from pysnmp.entity.rfc3413.oneliner import cmdgen
-import nelsnmp.snmp
-from nelsnmp.hostinfo.collect import get_device_version
-from nelsnmp.hostinfo.device import HostInfo
-from nelsnmp.snmp import SnmpHandler
+import netdevsnmp.snmp
+from netdevsnmp.hostinfo.collect import get_device_version
+from netdevsnmp.hostinfo.device import HostInfo
+from netdevsnmp.snmp import SnmpHandler
 from pysnmp.proto.rfc1902 import ObjectName, OctetString
 from pyasn1.type.univ import ObjectIdentifier
 from test_classes import GetCmd
@@ -50,7 +50,7 @@ def patch_snmp_getnext(monkeypatch):
     def mygetnext(*junk):
         return [['sd', 'df']]
 
-    monkeypatch.setattr(nelsnmp.snmp.SnmpHandler, 'getnext', mygetnext)
+    monkeypatch.setattr(netdevsnmp.snmp.SnmpHandler, 'getnext', mygetnext)
 
 
 def test_os():

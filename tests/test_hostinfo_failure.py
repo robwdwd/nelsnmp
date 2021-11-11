@@ -1,5 +1,5 @@
 import pytest
-from nelsnmp.hostinfo.device import HostInfo
+from netdevsnmp.hostinfo.device import HostInfo
 
 
 def test_hostinfo_invalid_parameter():

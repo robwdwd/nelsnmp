@@ -1,6 +1,6 @@
-from nelsnmp.snmp import SnmpHandler
-from nelsnmp.errors import ArgumentError, SnmpError
-from nelsnmp.oids import GeneralOids
+from netdevsnmp.snmp import SnmpHandler
+from netdevsnmp.errors import ArgumentError, SnmpError
+from netdevsnmp.oids import GeneralOids
 
 
 def test_handle_snmp_handler_invalid_version():

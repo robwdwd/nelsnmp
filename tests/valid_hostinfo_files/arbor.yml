@@ -1,0 +1,13 @@
+---
+arborsightline:
+  sysobjectid: 1.3.6.1.4.1.9694.1.4
+  description: "Peakflow SP 9.2.1 (build KHTL)  System Board Model: vmware"
+  vendor: arbor
+  os: arbos
+  version: '9.2.1'
+arbortms:
+  sysobjectid: 1.3.6.1.4.1.9694.1.5
+  description: "Arbor Networks TMS 9.2  Model: TMS-Software"
+  vendor: arbor
+  os: arbos
+  version: '9.2'

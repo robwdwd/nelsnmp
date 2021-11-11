@@ -1,7 +1,7 @@
 import pytest
 from pyasn1.type.univ import ObjectIdentifier
 from test_classes import GetCmdValues
-from nelsnmp.snmp import SnmpHandler
+from netdevsnmp.snmp import SnmpHandler
 from pysnmp.proto.rfc1902 import (
     Counter32,
     Counter64,

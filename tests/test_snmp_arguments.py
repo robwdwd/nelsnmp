@@ -1,4 +1,4 @@
-from nelsnmp.snmp import SnmpHandler
+from netdevsnmp.snmp import SnmpHandler
 
 
 def test_snmp_handler_v2c():
